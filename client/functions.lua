@@ -25,3 +25,7 @@ function debug2(msg)
         end
     end
 end
+
+function locale(msg)
+    return Config.Translation[Config.Locale][msg]
+    end

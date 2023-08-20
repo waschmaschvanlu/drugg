@@ -25,3 +25,15 @@ function debug2(msg)
     end
 end
 
+function locale(msg)
+    return Config.Translation[Config.Locale][msg]
+    end
+
+
+
+
+
+RegisterNetEvent('myPDrug:PlaceSeed')
+AddEventHandler('myPDrug:PlaceSeed', function()
+    print("hi")
+end)
